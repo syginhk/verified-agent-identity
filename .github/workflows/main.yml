@@ -26,7 +26,7 @@ jobs:
           node-version: '20'
 
       - name: Step 1 - Install ClawHub skill
-        run: npx clawhub@latest install verified-agent-identity --git
+        run: npx clawhub@latest install https://github.com/BillionsNetwork/verified-agent-identity.git
 
       - name: Install script dependencies
         run: |
